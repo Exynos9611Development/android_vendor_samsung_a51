@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tabin \
     vendor/samsung/a51/proprietary/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07061000000000000000000000000000.tlbin \
     vendor/samsung/a51/proprietary/vendor/app/mcRegistry/09090000070100010000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/09090000070100010000000000000000.tlbin \
-    vendor/samsung/a51/proprietary/vendor/bin/hw/nxp.android.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/nxp.android.hardware.nfc@1.1-service \
     vendor/samsung/a51/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a51/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.1-service.rc \
     vendor/samsung/a51/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
@@ -28,42 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/firmware/setfile_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hi1336.bin \
     vendor/samsung/a51/proprietary/vendor/firmware/setfile_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx582.bin \
     vendor/samsung/a51/proprietary/vendor/firmware/setfile_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx616.bin \
-    vendor/samsung/a51/proprietary/vendor/lib/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9611.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
-    vendor/samsung/a51/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
-    vendor/samsung/a51/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
-    vendor/samsung/a51/proprietary/vendor/lib/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.inputvirtual.so \
-    vendor/samsung/a51/proprietary/vendor/lib/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.sensorhub.so \
-    vendor/samsung/a51/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9611.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.inputvirtual.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.1.so \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
@@ -88,3 +51,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
     vendor/samsung/a51/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/a51/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
+
+PRODUCT_PACKAGES += \
+    camera.exynos9611 \
+    libSEF.quram \
+    libbauthserver \
+    libbauthtzcommon \
+    libegis_fp_normal_sensor_test \
+    libexynoscamera3 \
+    libgf_in_system_lib \
+    libqfp_sensortest \
+    libsecnativefeature \
+    libsensorlistener \
+    libsynaFpSensorTestNwd \
+    libuniapi \
+    libuniplugin \
+    sensors.grip \
+    sensors.inputvirtual \
+    sensors.sensorhub \
+    libswdap \
+    nfc_nci_nxp_vendor \
+    vendor.nxp.nxpnfc@1.0_vendor \
+    vendor.nxp.nxpnfc@1.1_vendor \
+    nxp.android.hardware.nfc@1.1-service
