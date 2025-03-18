@@ -363,6 +363,7 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
+	overrides: ["nfc_nci_nxp"],
 }
 
 cc_prebuilt_library_shared {
@@ -381,6 +382,7 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
+	overrides: ["vendor.nxp.nxpnfc@1.0"],
 }
 
 cc_prebuilt_library_shared {
