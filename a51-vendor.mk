@@ -67,5 +67,6 @@ PRODUCT_PACKAGES += \
     libqfp_sensortest \
     libsynaFpSensorTestNwd \
     nfc_nci_nxp_vendor \
+    vendor.nxp.nxpnfc@1.0_vendor \
     vendor.nxp.nxpnfc@1.1 \
     nxp.android.hardware.nfc@1.1-service

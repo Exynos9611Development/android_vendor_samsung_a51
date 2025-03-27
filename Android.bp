@@ -732,6 +732,36 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.nxp.nxpnfc@1.0_vendor",
+    stem: "vendor.nxp.nxpnfc@1.0",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so",
+	        ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+    overrides: ["vendor.nxp.nxpnfc@1.0"],
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.nxp.nxpnfc@1.1",
     owner: "samsung",
     strip: {
@@ -743,7 +773,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.1.so",
             ],
             shared_libs: [
-                "vendor.nxp.nxpnfc@1.0",
+                "vendor.nxp.nxpnfc@1.0_vendor",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -779,7 +809,7 @@ cc_prebuilt_binary {
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",
                 "libhidlbase",
-                "vendor.nxp.nxpnfc@1.0",
+                "vendor.nxp.nxpnfc@1.0_vendor",
                 "vendor.nxp.nxpnfc@1.1",
                 "libc++",
                 "libc",
