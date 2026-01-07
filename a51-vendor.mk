@@ -49,24 +49,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
+    libswdap \
     camera.exynos9611 \
     libSEF.quram \
-    libexynoscamera3 \
-    libsecnativefeature \
-    libsensorlistener \
-    libuniapi \
-    libuniplugin \
-    sensors.grip \
-    sensors.inputvirtual \
-    sensors.sensorhub \
-    libswdap \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
+    libexynoscamera3 \
     libgf_in_system_lib \
     libqfp_sensortest \
+    libsecnativefeature \
+    libsensorlistener \
     libsynaFpSensorTestNwd \
-    nfc_nci_nxp_vendor \
-    vendor.nxp.nxpnfc@1.0_vendor \
+    libuniapi \
+    libuniplugin \
+    nfc_nci_nxp \
+    sensors.grip \
+    sensors.inputvirtual \
+    sensors.sensorhub \
     vendor.nxp.nxpnfc@1.1 \
     nxp.android.hardware.nfc@1.1-service
