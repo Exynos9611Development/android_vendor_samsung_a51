@@ -59,7 +59,6 @@ PRODUCT_PACKAGES += \
     libexynoscamera3 \
     libgf_in_system_lib \
     libqfp_sensortest \
-    libsecnativefeature \
     libsensorlistener \
     libsynaFpSensorTestNwd \
     libuniapi \
